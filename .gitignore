@@ -1,0 +1,23 @@
+# 本地缓存、临时核验文件和内部交接记录不属于可复现成果。
+__pycache__/
+*.py[cod]
+.pytest_cache/
+tmp/
+output/
+HANDOFF.md
+
+# 两个误命名的空文件不是 Python 包入口，当前模块使用 namespace package。
+src/_init_.py
+experiments/_init_.py
+
+# 只提交正式实验结果，不提交改动前备份及 Word 预览副本。
+results/q1/before_requested_fixes/
+results/**/report/preview.docx
+
+# 实验脚本产生的图片留在本地，仓库只保留代码与 CSV 数据。
+results/**/*.png
+results/**/*.svg
+
+# 报告图脚本纳入仓库；生成的图注和 Markdown 表格保留在本地。
+results/**/report/captions.md
+results/**/report/*.md

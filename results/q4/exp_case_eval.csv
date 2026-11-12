@@ -1,0 +1,13 @@
+﻿H,evaluate,best_target,best_value
+1,eval_score,T2,2
+1,eval_closer,T2,3
+1,eval_rollout,T2,1
+2,eval_score,T2,-1
+2,eval_closer,T3,-3
+2,eval_rollout,T2,1
+3,eval_score,T2,2
+3,eval_closer,T2,1
+3,eval_rollout,T3,3
+4,eval_score,T3,3
+4,eval_closer,T3,3
+4,eval_rollout,T3,3

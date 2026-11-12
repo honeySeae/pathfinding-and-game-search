@@ -1,0 +1,11 @@
+﻿H,algorithm,order,best_target,best_value,nodes,leaves,cutoffs
+2,Minimax,fixed,T2,-1,17,12,0
+2,Alpha-Beta,fixed,T2,-1,13,8,2
+2,Alpha-Beta,reverse,T2,-1,16,11,1
+2,Alpha-Beta,gain,T2,-1,11,6,3
+2,Alpha-Beta,gain_asc,T2,-1,16,11,1
+4,Minimax,fixed,T3,3,65,24,0
+4,Alpha-Beta,fixed,T3,3,47,16,5
+4,Alpha-Beta,reverse,T3,3,60,21,5
+4,Alpha-Beta,gain,T3,3,37,12,6
+4,Alpha-Beta,gain_asc,T3,3,53,19,2
